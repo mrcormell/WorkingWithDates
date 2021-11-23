@@ -48,6 +48,10 @@ isoDateFormatter.formatOptions = [.withFullDate] //just cares about the date, no
 let fixedDate = isoDateFormatter.date(from: inputDateString) ?? now
 print(fixedDate)
 
+//using extension
+let myDate = Date.dateOnlyFrom("11/12/2021")
+print(myDate)
+
 
 
 
